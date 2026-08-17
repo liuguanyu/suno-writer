@@ -8,6 +8,8 @@
 | 严格无乐器、vocal-only、纯人声、A cappella / Acapella | `acapella.md` |
 | 无字歌、无词歌、哼唱、吟唱、vocalise、wordless vocal、无语义人声 | `wordless-vocals.md` |
 | R&B、Soul、Neo-Soul、丝滑律动、旋律型主唱 | `r-and-b.md` |
+| 现代 R&B、Contemporary R&B、Alternative R&B、PBR&B、Trap-Soul、氛围化/暗黑 R&B | `modern-r-and-b.md` |
+| New Jack Swing、Swingbeat、Teddy Riley 式、90 年代嘻哈/R&B 融合、Janet Jackson/Bobby Brown 式 | `new-jack-swing.md` |
 | Jazz、爵士、Swing、Bebop、Cool Jazz、Smooth Jazz、Jazz Fusion、Vocal Jazz、Scat | `jazz.md` |
 | Funk、放克、P-Funk、Funk Rock、Electro Funk、Boogie、Groove | `funk.md` |
 | Blues、布鲁斯、蓝调、Delta Blues、Chicago Blues、Electric Blues、Blues Rock、Shuffle | `blues.md` |
@@ -20,6 +22,7 @@
 | Electronic、EDM、House、Techno、Drum and Bass、Glitch、Future Bass | `electronic.md` |
 | Synthwave、Retrowave、Outrun、80s 电影配乐、霓虹复古未来 | `synthwave.md` |
 | Synthpop、合成器流行、New Wave、明亮复古电子流行 | `synthpop.md` |
+| Y2K、千禧年代流行、2000s Pop/R&B、Teen Pop、Max Martin/Timbaland 式、未来感 2000s | `y2k.md` |
 | City Pop、城市流行、日本 80s 流行、都市夜景 | `city-pop.md` |
 | Vaporwave、蒸汽波、Mallsoft、商场氛围、梦核、虚无怀旧 | `vaporwave.md` |
 | Lo-Fi、Lofi、Lo-Fi Hip Hop、Chillhop、Lo-Fi Beats、Bedroom Pop、放松学习/助眠 | `lo-fi.md` |
@@ -33,7 +36,7 @@
 | 巴洛克流行、Baroque Pop、Chamber Pop、室内流行、Orchestral Pop | `baroque-pop.md` |
 | Gospel、福音合唱、教堂和声、赞美诗、呼应式合唱 | `gospel.md` |
 
-组合请求只读取必要文件。例如“福音 R&B，副歌大量转音”读取 `r-and-b.md`、`gospel.md`、`vocal-techniques.md`；“A cappella Rap”读取 `rap.md` 与 `acapella.md`；“无字 A cappella 合唱”读取 `wordless-vocals.md` 与 `acapella.md`；“City Pop × Vaporwave”读取 `city-pop.md` 与 `vaporwave.md`；“后摇式动态爆发的 Shoegaze”读取 `post-rock.md` 与 `ambient-rock.md`；“巴洛克流行 × 电子”读取 `baroque-pop.md` 与 `synthpop.md`。不要加载整个目录。
+组合请求只读取必要文件。例如“福音 R&B，副歌大量转音”读取 `r-and-b.md`、`gospel.md`、`vocal-techniques.md`；“A cappella Rap”读取 `rap.md` 与 `acapella.md`；“无字 A cappella 合唱”读取 `wordless-vocals.md` 与 `acapella.md`；“City Pop × Vaporwave”读取 `city-pop.md` 与 `vaporwave.md`；“后摇式动态爆发的 Shoegaze”读取 `post-rock.md` 与 `ambient-rock.md`；“巴洛克流行 × 电子”读取 `baroque-pop.md` 与 `synthpop.md`；“Y2K × 现代 R&B”读取 `y2k.md` 与 `modern-r-and-b.md`。不要加载整个目录。
 
 ## 跨专题组合原则
 
