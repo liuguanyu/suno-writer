@@ -19,6 +19,7 @@ description: Suno 单曲与专辑创作、校验、提交、状态跟踪、WAV �
 | 提交单曲或专辑（浏览器交互）、轮询并下载 WAV | `references/submission-workflow.md` + `references/doctor-workflow.md` + `references/browser-adapter.md` |
 | 恢复批次、处理中断或 Create 后状态不明 | `references/recovery-workflow.md` |
 | 编写/检查歌词控制标签 | `references/suno-tags.md` |
+| 指定/描述和弦、和声进行、和弦性质（大三/小三/七和弦/九和弦/挂留/转位等） | `references/chords.md`；同时遵守 `references/suno-tags.md` |
 | 指定流派、唱法或特殊配器（如摇滚、朋克、后朋、后摇、金属、巴洛克流行、R&B、转音、无字歌、小众乐器、电子、氛围摇滚、福音、Rap、A cappella 等热门流派） | `references/styles/index.md`，再只读取命中的专题文件；同时遵守 `references/suno-tags.md` |
 | 确认 Markdown 字段及页面长度映射 | `references/output-contract.md` |
 | 维护浏览器适配或调查页面变化 | `references/browser-adapter.md` + `references/suno-integration.md` |
