@@ -1,0 +1,31 @@
+{
+  "name": "suno-writer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Suno 歌曲撰写工作流 Skill — 从创作到 WAV 下载的全流程自动化",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "validate": "tsx src/cli/main.ts validate",
+    "design-album": "tsx src/cli/main.ts design-album",
+    "validate:album": "tsx src/cli/main.ts validate-album",
+    "resume": "tsx src/cli/main.ts resume",
+    "doctor": "tsx src/cli/main.ts doctor",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.1.0"
+  },
+  "dependencies": {
+    "tsx": "^4.19.0",
+    "zod": "^3.24.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
